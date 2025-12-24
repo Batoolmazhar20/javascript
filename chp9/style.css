@@ -1,0 +1,47 @@
+body{
+  background: linear-gradient(to right, #16222a, #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.heading{
+    color:darkgrey;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    text-shadow: 40px 20px 10px rgb(53, 154, 140);
+}
+
+.para{
+    text-align: center;
+    color: aqua;
+    font-size: 19px;
+    
+
+}
+.table-section{
+    text-align: center;
+    color: aqua;
+    font-size: 30px;
+}
+
+
+.result-table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.result-table table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.result-table th {
+    background-color: #333;
+    color: white;
+}
+
+.result-table td, .result-table th {
+    padding: 10px;
+}
